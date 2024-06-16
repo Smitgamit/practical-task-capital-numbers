@@ -31,7 +31,7 @@ const MoviesList = () => {
   const [searchText, setSearchText] = useState<string>("thor");
   const [debouncedText, setDebouncedText] = useState("");
   const [moviesListData, setMoviesListData] = useState<Movie[]>([]);
-  const [activeTab, setActiveTab] = useState("All");
+  const [activeTab, setActiveTab] = useState("movie");
 
   const handleTabClick = (tab: string) => {
     setActiveTab(tab);
